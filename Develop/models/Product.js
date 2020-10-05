@@ -2,6 +2,8 @@
 const { Model, DataTypes } = require('sequelize');
 // import our database connection from config.js
 const sequelize = require('../config/connection');
+// const productsSeeds = require('../seeds/product-seeds');
+// const category = require('../models/Category');
 
 // Initialize Product model (table) by extending off Sequelize's Model class
 class Product extends Model { }
@@ -53,4 +55,5 @@ Product.init(
   }
 );
 
+// Product.belongsTo(category, productsSeeds);
 module.exports = Product;
