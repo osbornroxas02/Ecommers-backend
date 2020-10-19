@@ -2,8 +2,6 @@
 const { Model, DataTypes } = require('sequelize');
 // import our database connection from config.js
 const sequelize = require('../config/connection');
-// const productsSeeds = require('../seeds/product-seeds');
-// const category = require('../models/Category');
 
 // Initialize Product model (table) by extending off Sequelize's Model class
 class Product extends Model { }
@@ -11,7 +9,6 @@ class Product extends Model { }
 // set up fields and rules for Product model
 Product.init(
   {
-    // define columns
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -20,22 +17,21 @@ Product.init(
     },
     product_name: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: false
     },
     price: {
       type: DataTypes.DECIMAL,
       allowNull: false,
-      validate: {
-        isFloat: true,
+      validata: {
+        isFloat: true
       }
     },
     stock: {
       type: DataTypes.INTEGER,
       allowNull: false,
+      defaultValue: 10,
       validate: {
-        isFloat: true,
-        validate: { min: 10 },
-        isNumeric: true,
+        isDecimal: true
       }
     },
     category_id: {
@@ -55,5 +51,4 @@ Product.init(
   }
 );
 
-// Product.belongsTo(category, productsSeeds);
 module.exports = Product;
