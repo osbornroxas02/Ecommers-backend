@@ -1,5 +1,5 @@
-# E-commerce Back End Starter Code# E-commerce Back End Starter Code
-![ReadMe Image](https://github.com/osbornroxas02/Ecommers-backend/commit/df373cf34c2a3f857731c4e8fe03c58932463252)
+# E-commerce Back End Starter Code
+![ReadMe Image](https://github.com/osbornroxas02/Ecommers-backend/commit/df373cf34c2a3f857731c4e8fe03c58932463252.png)
  
 ---
 
@@ -21,10 +21,12 @@ This Eccomerce site was create with backend code in mind. Working Express.js API
 ## How To Use
 
 ![ReadMe Image](https://github.com/osbornroxas02/Ecommers-backend/blob/master/npmseed.png)
-Navigate to the Develop folder in your terminal. Type in "npm run seed". 
 
-![ReadMe Image](https://github.com/osbornroxas02/Ecommers-backend/commit/df373cf34c2a3f857731c4e8fe03c58932463252)
-After successfully seeding the database type in "npm start" to run the server. 
+Navigate to the Develop folder in your terminal. Type in "npm run seed" 
+
+![ReadMe Image](https://github.com/osbornroxas02/Ecommers-backend/commit/df373cf34c2a3f857731c4e8fe03c58932463252.png)
+
+After successfully seeding the database type in "npm start" to run the server
 
 ---
 
