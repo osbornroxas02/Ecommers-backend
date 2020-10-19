@@ -15,7 +15,8 @@
 
 ## Description 
 
-This Eccomerce site was create with backend code in mind. Working Express.js API and configure it to use Sequelize to interact with a MySQL database. And with the use of the Insomnia app we can simulate the process of an eccomerce website functionality
+This Eccomerce site was create with backend code in mind. Working Express.js API and configure it to use Sequelize to interact with a MySQL database. And with the use of the Insomnia app we can simulate the process of an eccomerce website functionality 
+
 ---
 
 ## How To Use
