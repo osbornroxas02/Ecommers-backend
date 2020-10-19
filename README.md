@@ -33,7 +33,7 @@ This Eccomerce site was create with backend code in mind. Working Express.js API
 ---
 
 ## Video Link
-- [Video:]https://drive.google.com/file/d/1-vZWA78Jj6qaPe9s4IqV7BVtBvCyK5t1/view
+- [Click Here](https://drive.google.com/file/d/1-vZWA78Jj6qaPe9s4IqV7BVtBvCyK5t1/view)
 
 
 ---
@@ -44,7 +44,7 @@ Osborn Roxas
 
 - [Github:](https://github.com/osbornroxas02/Ecommers-backend)
 - [Email:](https://OSBORNROXAS02@GMAIL.COM)
-[![ReadMe Image](https://github.com/osbornroxas02/budget-tracker-pwa/blob/main/seated%20%202.JPG)
+![ReadMe Image](https://github.com/osbornroxas02/budget-tracker-pwa/blob/main/seated%20%202.JPG)
 
 [Back to the top](#table-of-contents)
 
